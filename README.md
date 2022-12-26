@@ -82,6 +82,8 @@ Confusion Matrix for train,test,valid
 ![image](https://user-images.githubusercontent.com/109751694/209491329-dc5d0f11-bd37-47df-bbe9-c91ce2134768.png)
 ![image](https://user-images.githubusercontent.com/109751694/209491333-c9b235be-af5b-4488-b8cd-5c267c2ad20d.png)
 ![image](https://user-images.githubusercontent.com/109751694/209491338-c8647cf5-54e7-449d-a0f8-25efb5890204.png)
+
+
 The confusion matrix shows a bad result during the classification a huge overlap in the missed classification classes.
 The classification report shows bad accuracies on both train and test 22%, but the valid set accuracy was 42%.
 That could be due to the concept drift where we changed the data with some processes.
